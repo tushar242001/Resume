@@ -1,0 +1,110 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+header img {
+    border-radius: 50%; /* Make the image round (optional) */
+    width: 100px; /* Set the width of the image */
+    height: 100px; /* Set the height of the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+    margin-bottom: 10px; /* Add some space below the image */
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+}
+
+/* About Me section */
+#about {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Education section */
+#education {
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+/* Certificates section */
+#certificates {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+/*Skills Section */
+#skills {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+/*Projects Section */
+#projects{
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+#projects ul li {
+    margin-left: 40px;
+}
+
+#contact {
+    background-color: #f0f0f0;
+    padding: 40px;
+    margin: auto;
+}
+/* Add more styles as needed */
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Links */
+a {
+    color: #007bff;
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive navigation menu */
+@media screen and (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
